@@ -1,0 +1,7 @@
+Lesson06 topics
+    - docker review
+    - ddl
+    - dml
+
+ READ ALL THE MATERIALS AND PRACTICE!!!
+w3schools.com
