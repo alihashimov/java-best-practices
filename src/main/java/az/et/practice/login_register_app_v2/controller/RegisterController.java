@@ -15,7 +15,7 @@ public class RegisterController {
 
     public CommonResponseDto<RegisterDto> register(RegisterDto registerDto) {
         if (registerDto.getName() == null || registerDto.getName().isBlank())
-            throw new IllegalArgumentException("user's name cannot be blank!");
+            throw new IllegalArgumentException("user's name cannot be blank!!");
 
         if (!registerDto.getPassword().equals(registerDto.getConfirmPassword()))
             throw new PasswordAndConfirmPasswordNotEqualsException(

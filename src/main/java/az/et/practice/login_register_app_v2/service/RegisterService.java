@@ -18,7 +18,7 @@ public class RegisterService {
     public RegisterDto register(RegisterDto registerDto) {
         final String email = registerDto.getEmail();
         Optional<UserEntity> userByEmail = registerDao.findByEmail(email);
-        if (userByEmail.isPresent()) throw new UserAlreadyException("user with email" + email + " already exists");
+        if (userByEmail.isPresent()) throw new UserAlreadyException("user with email" + email + " already exists.");
         //dto ->entity
         UserEntity newUserEntity = new UserEntity(registerDto.getAge()
                 , registerDto.getName()
