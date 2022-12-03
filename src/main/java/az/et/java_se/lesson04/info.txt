@@ -1,6 +1,6 @@
 Topics to cover:
     - input -> process -> output
-        * controller, service, dao(repo)
+        * controller- service- dao(repo)
         * package management
         * dependency inversion
     - container technology (docker)
