@@ -1,4 +1,4 @@
-package az.et.practice.login_register_app_v2.model;
+package az.et.practice.login_register_app_v2.model.dto;
 
 public class CommonResponseDto<R> {
     private final R data;
@@ -11,6 +11,6 @@ public class CommonResponseDto<R> {
 
     @Override
     public String toString() {
-        return String.format("CommonResponseDto{data=%s, status=%d}", data, status);
+        return String.format("{data=%s, status=%d}", data, status);
     }
 }

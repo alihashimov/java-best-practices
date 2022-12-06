@@ -12,6 +12,17 @@ public class UserEntity {
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
 
+    public UserEntity(Long id, Integer age, String name, String email, String password,
+                      LocalDateTime createDate, LocalDateTime updateDate) {
+        this.id = id;
+        this.age = age;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.createDate = createDate;
+        this.updateDate = updateDate;
+    }
+
     public UserEntity(Integer age, String name, String email, String password) {
         this.age = age;
         this.name = name;

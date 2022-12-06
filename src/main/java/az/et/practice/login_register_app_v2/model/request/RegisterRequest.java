@@ -1,21 +1,21 @@
-package az.et.practice.login_register_app_v2.model.dto;
+package az.et.practice.login_register_app_v2.model.request;
 
 import java.util.Objects;
 
-public class RegisterDto {
+public class RegisterRequest {
     private Integer age;
     private String name;
     private String email;
     private String password;
     private String confirmPassword;
 
-    public RegisterDto(Integer age, String name, String email) {
+    public RegisterRequest(Integer age, String name, String email) {
         this.age = age;
         this.name = name;
         this.email = email;
     }
 
-    public RegisterDto(Integer age, String name, String email, String password, String confirmPassword) {
+    public RegisterRequest(Integer age, String name, String email, String password, String confirmPassword) {
         this.age = age;
         this.name = name;
         this.email = email;
@@ -69,7 +69,7 @@ public class RegisterDto {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        RegisterDto that = (RegisterDto) o;
+        RegisterRequest that = (RegisterRequest) o;
         return Objects.equals(this.age, that.age)
                 && Objects.equals(this.name, that.name)
                 && Objects.equals(this.email, that.email)

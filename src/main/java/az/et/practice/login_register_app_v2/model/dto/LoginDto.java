@@ -1,4 +1,4 @@
-package az.et.practice.login_register_app_v2.model;
+package az.et.practice.login_register_app_v2.model.dto;
 
 public class LoginDto {
     private String email;

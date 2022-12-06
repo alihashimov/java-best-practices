@@ -2,7 +2,7 @@ Lesson08 topics
     - dml (continued-x2)
     - jdbc
 
-PLEASE, READ ALL THE MATERIALS AND PRACTICE!!!
+READ ALL THE MATERIALS AND PRACTICE!!!
 w3schools.com
 
 relations:

@@ -1,7 +1,7 @@
 package az.et.practice.login_register_app_v2.controller;
 
 
-import az.et.practice.login_register_app_v2.model.LoginDto;
+import az.et.practice.login_register_app_v2.model.dto.LoginDto;
 import az.et.practice.login_register_app_v2.service.LoginService;
 
 public class LoginController {

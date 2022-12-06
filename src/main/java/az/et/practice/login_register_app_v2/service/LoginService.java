@@ -5,7 +5,7 @@ import az.et.practice.login_register_app_v2.dao.LoginDao;
 import az.et.practice.login_register_app_v2.dao.entity.UserEntity;
 import az.et.practice.login_register_app_v2.exception.IncorrectPasswordException;
 import az.et.practice.login_register_app_v2.exception.UserNotFoundException;
-import az.et.practice.login_register_app_v2.model.LoginDto;
+import az.et.practice.login_register_app_v2.model.dto.LoginDto;
 
 public class LoginService {
 
