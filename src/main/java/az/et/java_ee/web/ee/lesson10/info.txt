@@ -1,0 +1,20 @@
+Web intro:
+    - Http
+        - Request
+        – Response
+    - Server
+        - Jetty
+        - Tomcat
+        - Glassfish
+        - Grizzly
+    - Servlet
+        - Handler
+        - Mapping
+    - HTML
+    - CSS
+    - JavaScript
+    - jQuery
+
+https://roadmap.sh/backend
+https://www.restapitutorial.com/httpstatuscodes.html
+https://www.restapitutorial.com/lessons/httpmethods.html
