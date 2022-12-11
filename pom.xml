@@ -6,13 +6,16 @@
 
     <groupId>az.et</groupId>
     <artifactId>java-course-classes</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <packaging>jar</packaging>
+
     <dependencies>
 
         <dependency>
@@ -26,12 +29,12 @@
             <artifactId>jetty-server</artifactId>
             <version>11.0.12</version>
         </dependency>
-
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
             <version>11.0.12</version>
         </dependency>
+
     </dependencies>
 
 </project>
