@@ -1,9 +1,11 @@
+package az.et.java_ee.web.spring.lesson14;
+
 public final class ClassSingleton {
 
     private static ClassSingleton INSTANCE;
-    private String info = "Initial info class";
 
     private ClassSingleton() {
+
     }
 
     public static ClassSingleton getInstance() {
@@ -14,5 +16,5 @@ public final class ClassSingleton {
         return INSTANCE;
     }
 
-    // getters and setters
+
 }

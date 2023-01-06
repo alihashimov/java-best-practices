@@ -1,10 +1,10 @@
-package az.et.lesson13.service;
+package az.et.lesson13_14.service;
 
-import az.et.lesson13.exception.StudentNotFoundException;
-import az.et.lesson13.model.Student;
-import az.et.lesson13.model.StudentEntity;
-import az.et.lesson13.repository.StudentRepo;
-import az.et.lesson13.repository.StudentRepository;
+import az.et.lesson13_14.exception.StudentNotFoundException;
+import az.et.lesson13_14.model.Student;
+import az.et.lesson13_14.model.StudentEntity;
+import az.et.lesson13_14.repository.StudentRepo;
+import az.et.lesson13_14.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package az.et.lesson13.controller;
+package az.et.lesson13_14.controller;
 
-import az.et.lesson13.model.Student;
-import az.et.lesson13.service.StudentService;
+import az.et.lesson13_14.model.Student;
+import az.et.lesson13_14.service.StudentService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.validation.annotation.Validated;

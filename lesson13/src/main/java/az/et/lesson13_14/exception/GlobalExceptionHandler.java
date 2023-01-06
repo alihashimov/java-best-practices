@@ -1,4 +1,4 @@
-package az.et.lesson13.exception;
+package az.et.lesson13_14.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

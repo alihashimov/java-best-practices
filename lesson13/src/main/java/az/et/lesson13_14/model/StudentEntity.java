@@ -1,4 +1,4 @@
-package az.et.lesson13.model;
+package az.et.lesson13_14.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

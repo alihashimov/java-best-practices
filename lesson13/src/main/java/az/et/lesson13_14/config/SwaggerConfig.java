@@ -1,4 +1,4 @@
-package az.et.lesson13.config;
+package az.et.lesson13_14.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

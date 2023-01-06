@@ -1,6 +1,6 @@
-package az.et.lesson13.repository;
+package az.et.lesson13_14.repository;
 
-import az.et.lesson13.model.StudentEntity;
+import az.et.lesson13_14.model.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

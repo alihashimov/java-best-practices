@@ -1,6 +1,6 @@
-package az.et.lesson13.repository;
+package az.et.lesson13_14.repository;
 
-import az.et.lesson13.model.Student;
+import az.et.lesson13_14.model.Student;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
